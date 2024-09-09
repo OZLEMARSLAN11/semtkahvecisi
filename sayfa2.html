@@ -9,16 +9,25 @@
         box-sizing: border-box;
       }
       #bolge1 {
-        background-color: bisque;
+       
         display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        
+        gap: 6rem;
       }
-      #bolge1 > div {
+      #bolge1 #ickutu1 {
         flex: 1;
         width: 100%;
       }
-      #bolge1 div > img{
+      #bolge1 #ickutu2{
+        flex: 1;
+      }
+      #bolge1 > div > img{ 
         flex: 1;
         max-width: 100%;
+        display: block;
       }
 
       .boxed-cerceve {
@@ -29,14 +38,15 @@
   </head>
   <body>
     <section id="bolge1">
-        <div>
+        <div id="ickutu1">
       <img
         src="https://turk.net/wp-content/uploads/2024/05/Turknetten-12-ay-sabit-fiyat-firsati-1024x683.webp"
         alt=""
       />
     </div>
-      <div>
-        <h2></h2>
+
+      <div id="ickutu2">
+        <h2>TurkNet’lilere Çok Avantajlı 12 Aylık Peşin Ödemede İndirimli Fiyat Fırsatı </h2>
         <p>
           TurkNet’lilere Çok Avantajlı 12 Aylık Peşin Ödemede İndirimli Fiyat
           Fırsatı TurkNet’liler çok avantajlı! Mevcut TurkNet abonesiyseniz
@@ -47,8 +57,9 @@
           yok, cayma bedeli yok! Dilediğiniz zaman iptal edebilir ve kalan
           tutarı iade alabilirsiniz.
         </p>
-        <a href="#"></a>
+        <a href="#">Ayrıntılı bilgi</a>
       </div>
+      
     </section>
   </body>
 </html>
