@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.kutular {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  background-color: darksalmon;
+  padding: 20px;
+  flex-direction: row;
+ 
+}
+.kutu {
+  width: 250px;
+  height: 100px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.item4{
+    background-color: blue;
+    order: 5;
+    flex-basis: 40%;
+}
+    
+.item5{
+    background-color: yellow;
+    order: 4;
+    align-items: center;
+    
+    
+}
